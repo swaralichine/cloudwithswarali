@@ -5,23 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cloud With Swarali</title>
   <style>
-    body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; }
-    h1, h2 { color: #1E40AF; }
-    a { color: #2563EB; text-decoration: none; }
+    body { 
+      font-family: Arial, sans-serif; 
+      max-width: 900px; 
+      margin: 0 auto; 
+      padding: 20px; 
+      line-height: 1.6; 
+      background-color: #f9f9f9;
+      color: #232F3E;
+    }
+    h1 { color: #FF9900; } /* AWS Orange for main title */
+    h2 { color: #232F3E; border-bottom: 2px solid #FF9900; padding-bottom: 5px; }
+    a { color: #FF9900; text-decoration: none; }
     a:hover { text-decoration: underline; }
+    nav a { margin-right: 15px; font-weight: bold; }
+    ul { list-style-type: disc; padding-left: 20px; }
   </style>
 </head>
 <body>
-  <h1>Welcome to Cloud With Swarali ☁️</h1>
-  <p>Exploring cloud services, building solutions, and sharing knowledge through blogs.</p>
+  <h1>Cloud With Swarali ☁️</h1>
+  <p>Exploring cloud services, building scalable solutions, and sharing knowledge through blogs.</p>
 
+  <!-- Navigation -->
+  <nav>
+    <a href="aws-services/index.html">AWS Services</a>
+    <a href="projects/index.html">Projects</a>
+    <a href="certification-notes/index.html">Certification Notes</a>
+    <a href="blogs/index.html">Blogs</a>
+  </nav>
+
+  <!-- Featured Blogs -->
   <h2>Featured Blogs</h2>
   <ul>
-    <li><a href="#">S3 Explained Simply</a></li>
-    <li><a href="#">VPC Demystified</a></li>
+    <li><a href="blogs/s3-explained.html">S3 Explained Simply</a></li>
+    <li><a href="blogs/vpc-demystified.html">VPC Demystified</a></li>
   </ul>
 
+  <!-- About Me -->
   <h2>About Me</h2>
-  <p>Cloud enthusiast passionate about AWS, security, and building scalable systems.</p>
+  <p>
+    Cloud enthusiast passionate about AWS, security, and building scalable, high-performance systems.
+    Sharing tutorials, notes, and hands-on projects for cloud learners and professionals.
+  </p>
 </body>
 </html>
